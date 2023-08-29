@@ -2,8 +2,10 @@ import { motion } from "framer-motion";
 
 import { styles } from "../../styles";
 import { ComputersCanvas } from "./canvas";
+import { github, linkedin } from "../../assets";
+import { profileLinks } from "../../constants";
 
-const Hero = () => {
+const Hero = ({ github_link, linkedIn_link }) => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -19,9 +21,34 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Suraj </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            A Passionate Fullstack Web Developer based in India.
           </p>
+          <div className="flex">
+            <div
+              onClick={() => window.open(github_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+
+            <div
+              onClick={() => {
+                console.log("GitHub link clicked:", github_link);
+                window.open(github_link, "_blank");
+              }}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={linkedin}
+                alt="source code"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <br />
