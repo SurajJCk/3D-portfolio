@@ -4,25 +4,25 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  nike,
+  ecomm,
   tripguide,
-  threejs,
+  python,
+  mysql,
+  postgresql,
+  powerbi,
+  excel,
 } from "../assets";
 
 export const navLinks = [
@@ -69,48 +69,48 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Mysql",
+    icon: mysql,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "excel",
+    icon: excel,
+  },
+  {
+    name: "Power BI",
+    icon: powerbi,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -211,46 +211,44 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Nike website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Nike landing page using ReactJS and Tailwind, creating an engaging and dynamic user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nike,
+    source_code_link: "https://github.com/SurajJCk/nike",
+    deploy_link: "https://nike-blue.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Ecommerce",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "an ecommerce website using HTML, CSS, and JavaScript, incorporating essential features like a responsive design, product catalog, shopping cart for seamless online shopping.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "javascript",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ecomm,
+    source_code_link: "https://github.com/SurajJCk/Ecommerce-app",
+    deploy_link: "https://ecommercesjc.netlify.app/",
   },
   {
     name: "Trip Guide",
