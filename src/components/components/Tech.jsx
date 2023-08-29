@@ -4,10 +4,16 @@ import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../../hoc";
 import { technologies } from "../../constants";
 import { styles } from "../../styles";
+import { motion } from "framer-motion";
+import { textVariant } from "../../utils/motion";
+
 const Tech = () => {
   return (
     <>
-      <h2 className={`${styles.sectionHeadText} text-center`}>Skills</h2>
+      <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Skills</h2>
+      </motion.div>
+
       <br />
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
