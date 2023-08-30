@@ -175,30 +175,41 @@ const profileLinks = [
   },
 ];
 
-const testimonials = [
+const qualifications = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    course: "Master of Commerce",
+    institute: "K C Das Commerce College, Guwahati",
+    board: "Gauhati University",
+    year: "2018-2020",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    course: "Bachelor of Commerce",
+    institute: "K C Das Commerce College, Guwahati",
+    board: "Gauhati University",
+    year: "2015-2018",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    course: "Class 12",
+    institute: "Faculty Higher Secondary School, Guwahati",
+    board: "CBSE",
+    year: "2014-15",
+  },
+];
+const certifications = [
+  {
+    course: "Full Stack Web Dev",
+    institute: "Physics Wallah",
+    year: "2023",
+  },
+  {
+    course: "Web Development by Angela Yu",
+    institute: "Udemy",
+    year: "2022",
+  },
+  {
+    course: "Machine Learning",
+    institute: "Coursera",
+    year: "2023",
   },
 ];
 
@@ -271,6 +282,7 @@ export {
   profileLinks,
   technologies,
   experiences,
-  testimonials,
+  qualifications,
+  certifications,
   projects,
 };
