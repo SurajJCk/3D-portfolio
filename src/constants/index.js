@@ -197,19 +197,19 @@ const qualifications = [
 ];
 const certifications = [
   {
-    course: "Full Stack Web Dev",
-    institute: "Physics Wallah",
+    course: "CS50 Web Programming",
+    institute: "Harvard University",
     year: "2023",
+  },
+  {
+    course: "Full Stack Web Development",
+    institute: "Physics Wallah",
+    year: "2022",
   },
   {
     course: "Web Development by Angela Yu",
     institute: "Udemy",
-    year: "2022",
-  },
-  {
-    course: "Machine Learning",
-    institute: "Coursera",
-    year: "2023",
+    year: "2021",
   },
 ];
 
